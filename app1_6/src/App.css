@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.2rem;
+  gap: 1.2rem;
+}
+
+html,
+body,
+.container {
+  height: 100vh;
+}
+
+.render-section {
+  width: 70%;
+  height: 100%;
+}
+
+.conf-panel-section {
+  width: 30%;
+  font-size: 1.6rem;
+}
+
+fieldset {
+  padding: 0.6rem 0.4rem;
+  margin-bottom: 0.6rem;
+}
+
+fieldset input {
+  margin-right:0.4rem;
+}
+
+.field__projection .inputs--radio, .field__landslide, .field__rotation, .field__rotation__pic {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.field__landslide__pic {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+fieldset div {
+  width: 100%;
+  padding: 0.2rem;
+}
+
+.input--num {
+  width: 100%;
+}
+
+.btn {
+  width: 100%;
+  margin-bottom: 0.6rem;
+}

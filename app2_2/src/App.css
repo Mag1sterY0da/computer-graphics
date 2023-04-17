@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+main {
+  position: relative;
+}
+
+.config-section {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.config-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  flex-basis: 200px;
+}
+
+.config-field div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.config-field h2 {
+ font-size: 1.8rem;
+}
+
+.range-input {
+  margin: 1rem;
+}
