@@ -1,0 +1,83 @@
+[[redirects]]
+from = "/*"
+to = "/app1_1/index.html"
+status = 200
+
+[[redirects]]
+from = "/app1_1/*"
+to = "/app1_1/index.html"
+status = 200
+
+[[redirects]]
+from = "/app1_2/*"
+to = "/app1_2/index.html"
+status = 200
+
+[[redirects]]
+from = "/app1_3/*"
+to = "/app1_3/index.html"
+status = 200
+
+[[redirects]]
+from = "/app1_4/*"
+to = "/app1_4/index.html"
+status = 200
+
+[[redirects]]
+from = "/app1_5/*"
+to = "/app1_5/index.html"
+status = 200
+
+[[redirects]]
+from = "/app1_6/*"
+to = "/app1_6/index.html"
+status = 200
+
+[[redirects]]
+from = "/app1_7/*"
+to = "/app1_7/index.html"
+status = 200
+
+[[redirects]]
+from = "/app2_1/*"
+to = "/app2_1/index.html"
+status = 200
+
+[[redirects]]
+from = "/app2_2/*"
+to = "/app2_2/index.html"
+status = 200
+
+[[redirects]]
+from = "/app2_3/*"
+to = "/app2_3/index.html"
+status = 200
+
+[[redirects]]
+from = "/app2_4/*"
+to = "/app2_4/index.html"
+status = 200
+
+[[build]]
+command = "cd app1_1 && npm install && npm run build"
+publish = "app1_1/build"
+command = "cd app1_2 && npm install && npm run build"
+publish = "app1_2/build"
+command = "cd app1_3 && npm install && npm run build"
+publish = "app1_3/build"
+command = "cd app1_4 && npm install && npm run build"
+publish = "app1_4/build"
+command = "cd app1_5 && npm install && npm run build"
+publish = "app1_5/build"
+command = "cd app1_6 && npm install && npm run build"
+publish = "app1_6/build"
+command = "cd app1_7 && npm install && npm run build"
+publish = "app1_7/build"
+command = "cd app2_1 && npm install && npm run build"
+publish = "app2_1/build"
+command = "cd app2_2 && npm install && npm run build"
+publish = "app2_2/build"
+command = "cd app2_3 && npm install && npm run build"
+publish = "app2_3/build"
+command = "cd app2_4 && npm install && npm run build"
+publish = "app2_4/build"
